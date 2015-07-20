@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_white">#FAFAFA</color>
+    <color name="custom_dark_gray">#9E9E9E</color>
+    <color name="custom_dull_white">#EEEEEE</color>
+</resources>

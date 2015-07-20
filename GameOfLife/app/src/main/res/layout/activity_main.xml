@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_dull_white"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linerLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         android:background="@color/custom_dark_gray"
+        android:layout_marginTop="20dp" >
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:background="@color/custom_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+         >
+    </TableLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linerLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" >
+
+        <ToggleButton
+            android:id="@+id/playpause"
+            android:background="@drawable/toggle_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn=""
+            android:textOff=""
+            android:checked="true" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clear"
+            android:contentDescription="Clear" />
+
+    </LinearLayout>
+
+</RelativeLayout>
